@@ -1,0 +1,1 @@
+newman run AutomationSample.postman_collection.json -e reqres_SSL.postman_environment.json

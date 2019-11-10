@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AutomationSample" tests="1" time="0.143">
+  <testsuite name="users" id="51052428-5cc1-43a2-8ec0-80836f5cbc53" timestamp="2019-11-10T03:50:05.972Z" classname="users" tests="4" failures="0" errors="0" time="0.143">
+    <testcase name="Schema is valid" time="0.143"/>
+    <testcase name="response is ok" time="0.143"/>
+    <testcase name="excepected response time is ok " time="0.143"/>
+    <testcase name="response must be valid and have a body" time="0.143"/>
+  </testsuite>
+</testsuites>
