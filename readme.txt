@@ -15,3 +15,7 @@ Jenkins.xml
 
  <executable>%BASE%\jre\bin\java</executable>
   <arguments>-Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -Dhudson.model.DirectoryBrowserSupport.CSP -jar "%BASE%\jenkins.war" --httpPort=9080 --webroot="%BASE%\war"</arguments>
+
+
+
+newman run C:\Users\DEV\git\wdx-qore-service\src\test\postman\qore-service.postman_collection -r cli,htmlextra  --reporter-htmlextra-template C:\Users\DEV\git\wdx-qore-service\src\test\postman\htmlreqres.hbs -k
